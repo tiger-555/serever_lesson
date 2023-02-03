@@ -1,0 +1,143 @@
+    1  ls -オプション パス
+    2   ls /
+    3  ls /usr
+    4  pwd
+    5  cd /root
+    6  pwd
+    7  cd usr
+    8   cd /usr
+    9  cd /home
+   10  mkdir test1
+   11  ls
+   12  mkdir -p test2/test3
+   13  ls 
+   14  ls test2
+   15  cd /home
+   16  touch test1/index.php
+   17  ls test1
+   18  cd /home/test1 && ls
+   19  cp index.php copy.php
+   20  ls
+   21  cd /home
+   22  cp -r test1 test4
+   23  ls
+   24  ls test4
+   25  ls
+   26  mv test2/test3 test3
+   27  ls
+   28  mv test4 test1_copy
+   29  ls
+   30  ls test1
+   31  rm test1/copy.php
+   32  ls test1
+   33  rm -r test3
+   34  ls
+   35  rm test1_copy/*.php
+   36  ls test1_copy
+   37  ls test1
+   38  ls
+   39  cat README.md
+   40  cd /home
+   41  echo '# Hello World' > README.md
+   42  cat README.md
+   43  echo '# Server Lesson' > README.md
+   44  cat README.md
+   45  echo 'Linux Practice' >> README.md
+   46   echo '-----------------' >> README.md
+   47  cat README.md
+   48   vi README.md
+   49  cd /root
+   50  mkdir server_lesson && cd server_lesson
+   51  yum update -y && yum -y install git
+   52   git version
+   53  git init
+   54  touch first.txt
+   55  ls
+   56  mkdir linux_practice1
+   57* 
+   58  mkdir linux_practice2
+   59  mkdir READ.md
+   60  ls
+   61  /cd test1
+   62  cd test1
+   63  pwd
+   64  cd linux_practice1
+   65  mkdir public
+   66  ls
+   67  cd public
+   68  touch index.php
+   69  ls
+   70  cp/index.php index.bk.php
+   71  ls
+   72  cp index.php index.bk.php
+   73  ls
+   74  cd linux_practice1
+   75  cd linux_practice1
+   76  pwd
+   77  cd -
+   78  cp public tmp
+   79  ls
+   80  ls
+   81  cp public tmp
+   82  ls
+   83  cp -r public tmp
+   84  ls
+   85  cd tmp
+   86  ls
+   87  rm index.bk.php
+   88  ls
+   89  cd -
+   90  cd -
+   91  cd -
+   92  cd /
+   93  cd server_lesson
+   94  pwd
+   95  cd server_lesson
+   96  cd -
+   97  cd ..
+   98  cd README.md
+   99  ls
+  100  rm READ.md
+  101  rm -r READ.md
+  102  touch READ.md
+  103  touch READ.md
+  104  ls
+  105  vi READ.md
+  106  vi READ.md
+  107  vi READ.md
+  108  vi READ.md
+  109  cd linux_practice2
+  110  mkdir documents
+  111  ls
+  112  mkdir trash
+  113  mkdir trash
+  114  ls
+  115  cd documents
+  116  touch gizumo{01..50}.md
+  117  ls
+  118  mv gizumo{20..40}md trash
+  119  ls
+  120  cd -
+  121  ls
+  122  cd documents
+  123  ls
+  124  mv gizumo{20..40}md /trash
+  125  mv gizumo{20..40}md ../trash
+  126  mv gizumo{20..40}.md ../trash
+  127  ls
+  128  cd ..
+  129  cd trash
+  130  ls
+  131  cd ..
+  132  touch .gitignore
+  133  ls
+  134  ls -a
+  135  vi .gitignore
+  136  vi .gitignore
+  137  vi .gitignore
+  138  history 300
+  139  touch exec_command.log
+  140  history 300 -a > exec_command.log
+  141  ls
+  142  history 300 -a >exec_command.log
+  143  history 300 > exec_command.log
